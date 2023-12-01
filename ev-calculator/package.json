@@ -3,9 +3,18 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+<<<<<<< HEAD
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
+=======
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+>>>>>>> 58c811aec956b1993fcd3f35c7e49b8c7cf0768a
   },
   "dependencies": {
     "vue": "^3.3.4"
